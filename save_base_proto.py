@@ -23,7 +23,7 @@ def buildLabelIndex(labels):
     return label2inds
 
 
-file = '../FewShotWithoutForgetting-master/datasets/MiniImagenet/miniImageNet_category_split_train_phase_train.pickle'
+file = '/media/ZT/FSL_data/MiniImagenet/miniImageNet_category_split_train_phase_train.pickle'
 with open(file, 'rb') as fo:
     dataset = pickle.load(fo, encoding='iso-8859-1')
 data = dataset['data']

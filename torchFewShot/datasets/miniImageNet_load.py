@@ -28,7 +28,7 @@ class miniImageNet_load(object):
     Dataset statistics:
     # 64 * 600 (train) + 16 * 600 (val) + 20 * 600 (test)
     """
-    dataset_dir = '/media/space/wzy/FewShotWithoutForgetting-master/datasets/MiniImagenet/'
+    dataset_dir = '/media/ZT/FSL_data/MiniImagenet/'
 
     def __init__(self, **kwargs):
         super(miniImageNet_load, self).__init__()
